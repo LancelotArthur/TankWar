@@ -1,0 +1,5 @@
+	auto menu=Menu::create(MenuItemImage::create("tank0020.png",
+		"tank.png", [](Object *obj){
+		log("menu item touched");
+	}), NULL);
+	addChild(menu);
